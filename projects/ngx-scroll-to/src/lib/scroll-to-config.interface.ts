@@ -33,6 +33,8 @@ export interface ScrollToConfigOptionsBase {
   easing?: ScrollToAnimationEasing;
   /** A mapped list of offsets */
   offsetMap?: ScrollToOffsetMap;
+  /** */
+  enabledInterruptiveEvents?: boolean
 }
 
 /** Configuration Options Target */

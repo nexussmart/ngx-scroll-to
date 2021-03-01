@@ -105,6 +105,10 @@ export class ScrollToService {
         targetNode.getBoundingClientRect().top;
     }
 
+    if ( !!mergedConfigOptions.enabledInterruptiveEvents && !mergedConfigOptions.enabledInterruptiveEvents ) {
+      this.interruptiveEvents = [];
+    }
+
     // Create Animation
     this.animation = new ScrollToAnimation(
       container,

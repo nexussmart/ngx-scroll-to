@@ -10,7 +10,8 @@ export const DEFAULTS: ScrollToDefaultConfigOptions = {
   duration: 650,
   easing: 'easeInOutQuad',
   offset: 0,
-  offsetMap: new Map()
+  offsetMap: new Map(),
+  enabledInterruptiveEvents: true
 };
 
 /** Easing Colleciton */
