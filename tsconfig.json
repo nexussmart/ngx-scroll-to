@@ -16,7 +16,7 @@
       "dom"
     ],
     "paths": {
-      "@nicky-lenaers/ngx-scroll-to": [
+      "@nexussmart/ngx-scroll-to": [
         "dist/ngx-scroll-to"
       ]
     }

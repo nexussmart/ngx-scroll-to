@@ -1,6 +1,6 @@
 {
-  "name": "@nicky-lenaers/ngx-scroll-to",
-  "description": "Demo Application for @nicky-lenaers/ngx-scroll-to package.",
+  "name": "@nexussmart/ngx-scroll-to",
+  "description": "Demo Application for @nexussmart/ngx-scroll-to package.",
   "version": "9.0.0",
   "license": "MIT",
   "scripts": {
@@ -19,7 +19,7 @@
     "lib:package": "yarn build --prod && yarn copy:readme && cd ./dist/ngx-scroll-to && yarn pack",
     "prelib:publish": "yarn lib:package",
     "lib:publish": "cd ./dist/ngx-scroll-to && yarn publish --access=public",
-    "tags": "yarn tag list @nicky-lenaers/ngx-scroll-to"
+    "tags": "yarn tag list @nexussmart/ngx-scroll-to"
   },
   "private": false,
   "contributors": [

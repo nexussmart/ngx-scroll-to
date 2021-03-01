@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ScrollToService } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService } from '@nexussmart/ngx-scroll-to';
 
 /** Offset Only Component */
 @Component({
